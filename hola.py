@@ -1,6 +1,4 @@
 import sys
-
-if len(sys.argv) > 1:
-    print(f"Hola, {sys.argv[1]}.")
-else:
-    print("Hola.")
+#Autor: Sergio <sergio@uco.es>
+nombre = sys.argv[1] if len(sys.argv) > 1 else "Mundo"
+print(f"Hola, {nombre}!")
